@@ -1,0 +1,141 @@
+<!-- <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon GO Calendar Sync</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <i class="fas fa-calendar-alt"></i>
+                    Pokémon GO Calendar Sync
+                </h1>
+                <p class="subtitle">
+                    Extrae automáticamente eventos de Pokémon GO y guárdalos en tu Google Calendar
+                </p>
+            </div>
+        </header>
+
+        <section class="controls">
+            <button id="extractBtn" class="btn btn-primary">
+                <i class="fas fa-download"></i>
+                <span class="btn-text">Extraer Eventos</span>
+                <div class="loading-spinner" style="display: none;"></div>
+            </button>
+
+            <button id="syncBtn" class="btn btn-secondary" disabled>
+                <i class="fas fa-sync-alt"></i>
+                <span class="btn-text">Sincronizar con Google Calendar</span>
+                <div class="loading-spinner" style="display: none;"></div>
+            </button>
+
+            <button id="authBtn" class="btn btn-outline">
+                <i class="fab fa-google"></i>
+                Conectar con Google
+            </button>
+        </section>
+
+        <!-- Estado de sincronización -->
+        <div id="syncStatus" class="sync-status" style="display: none;">
+            <i class="fas fa-check-circle"></i>
+            <span id="syncStatusText">Última sincronización: Nunca</span>
+        </div>
+
+        <!-- Lista de eventos -->
+        <section class="events-section">
+            <h2 class="section-title">
+                <i class="fas fa-star"></i>
+                Eventos de Pokémon GO
+            </h2>
+            
+            <div id="eventsContainer" class="events-container">
+                <div class="empty-state">
+                    <i class="fas fa-calendar-times"></i>
+                    <p>No hay eventos cargados</p>
+                    <p class="empty-subtitle">Haz clic en "Extraer Eventos" para comenzar</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección educativa -->
+        <section class="education-section">
+            <div class="education-card">
+                <h3 class="education-title">
+                    <i class="fas fa-graduation-cap"></i>
+                    Conceptos de JavaScript que aprenderás
+                </h3>
+                
+                <div class="education-content">
+                    <div class="education-column">
+                        <h4>Básico:</h4>
+                        <ul>
+                            <li>• Manipulación del DOM</li>
+                            <li>• Eventos y callbacks</li>
+                            <li>• Fetch API y AJAX</li>
+                            <li>• Promesas y async/await</li>
+                            <li>• Local Storage</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="education-column">
+                        <h4>Intermedio:</h4>
+                        <ul>
+                            <li>• Programación funcional</li>
+                            <li>• Debouncing y throttling</li>
+                            <li>• Patrones de diseño</li>
+                            <li>• Manejo de errores</li>
+                            <li>• Módulos ES6</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="education-column">
+                        <h4>Avanzado:</h4>
+                        <ul>
+                            <li>• Web Scraping con proxies</li>
+                            <li>• OAuth 2.0 y APIs</li>
+                            <li>• Service Workers</li>
+                            <li>• WebSockets</li>
+                            <li>• Progressive Web Apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal para configuración -->
+        <div id="configModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Configuración de Google Calendar</h3>
+                    <button class="modal-close" id="closeModal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Para conectar con Google Calendar, necesitas configurar las credenciales OAuth 2.0:</p>
+                    <ol>
+                        <li>Ve a <a href="https://console.cloud.google.com" target="_blank">Google Cloud Console</a></li>
+                        <li>Crea un nuevo proyecto o selecciona uno existente</li>
+                        <li>Habilita la Google Calendar API</li>
+                        <li>Crea credenciales OAuth 2.0</li>
+                        <li>Configura las URLs de redirección</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/scraper.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> -->
